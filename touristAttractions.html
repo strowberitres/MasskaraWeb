@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="touristattract.css">
+    <title>Bacolod City - Tourist Attractions</title>
+</head>
+<body>
+  <audio id="audio" hidden autoplay>
+    <source src="mask.ogg" type="audio/mpeg">
+    <source src="mask.mp3" type="audio/mpeg">
+</audio>
+    <!-- Page Wrap -->
+<div class="page-wrap">
+
+    <div id="home-slider">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide swiper-slide-one">
+            <div class="swiper-image" data-swiper-parallax-y="-20%">
+              <div class="swiper-image-inner swiper-image-left swiper-image-one">
+                <h1><span class="emphasis">Bacolod City</span><br> Park<br><span>and Lagoon.</span></h1>
+                <p> Bacolod Park and Lagoon, a city icon, features a peaceful lagoon with fish and turtles, framed by lush greenery and carabao sculptures. It's a perfect spot for picnics, walks, and cultural events, with local vendors and vibrant surroundings.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-image" data-swiper-parallax-y="35%">
+              <div class="swiper-image-inner swiper-image-right swiper-image-two">
+                <p class="paragraph">
+                  The <span class="ngc">Bacolod City New Government Center</span> is the city's modern hub for public service. Its contemporary design and layout serve as the central venue for municipal administration, public hearings, and city events. The landscaped surroundings offer a serene backdrop, and nightly illumination adds to its visual charm.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide swiper-slide-two">
+            <div class="swiper-image" data-swiper-parallax-y="-20%">
+              <div class="swiper-image-inner swiper-image-left swiper-image-three">
+                <h1>The <span class="emphasis">Bacolod</span> City<br><span>Public Plaza.</span></h1>
+                <p>The Bacolod Public Plaza is a major landmark and gathering spot in the heart of the city. This picturesque park offers a serene retreat from the hustle and bustle of city life. Visitors can take a leisurely stroll, relax on the benches, or simply soak in the charming ambiance. The plaza is also home to the iconic “Panaad Park and Stadium,” a popular venue for various events and celebrations</p>
+              </div>
+            </div>
+            <div class="swiper-image" data-swiper-parallax-y="35%">
+              <div class="swiper-image-inner swiper-image-right swiper-image-four">
+                <p class="paragraph">
+                  The <span class="ngc">San Sebastian Cathedral</span>, among Bacolod City's oldest and most exquisite churches, stands as a symbol of the city's religious and cultural heritage. Constructed in the late 19th century, this architectural marvel boasts Romanesque design, showcasing stunning stained glass windows, intricate woodwork, and a bell tower with antique bells.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide swiper-slide-three">
+            <div class="swiper-image" data-swiper-parallax-y="-20%">
+              <div class="swiper-image-inner swiper-image-left swiper-image-five">
+                <h1>The <span class="emphasis">Upper East.</span><br><span></span></h1>
+                <p>The Upper East Bacolod is a cosmopolitan township development in Bacolod City. It is a master-planned community that integrates residential, commercial, educational, and leisure components. This modern urban district is designed with a focus on walkability and green spaces, offering a vibrant lifestyle destination for residents and visitors alike</p>
+              </div>
+            </div>
+            <div class="swiper-image" data-swiper-parallax-y="35%">
+              <div class="swiper-image-inner swiper-image-right swiper-image-six">
+                <p class="paragraph">
+                  The Negros Museum, once the 1925 Provincial Agriculture Building, now houses a private provincial museum displaying historical and contemporary local artworks. It preserves the cultural heritage of the Negros Islands, aims to educate the younger generation, and includes a café for visitors.
+                </p>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.min.js"></script>
+  <script>
+    var mySwiper = new Swiper(".swiper-container", {
+    direction: "vertical",
+    loop: true,
+    pagination: ".swiper-pagination",
+    grabCursor: true,
+    speed: 1000,
+    paginationClickable: true,
+    parallax: true,
+    autoplay: false,
+    effect: "slide",
+    mousewheelControl: 1
+});
+
+document.addEventListener("keydown", function (event) {
+  if (event.keyCode === 37) {
+    // The keycode 27 corresponds to the Escape key
+    // You can replace the following URL with the one for "menu.html"
+    window.location.href = "menu.html";
+  }
+});
+  </script>
+</body>
+</html>
