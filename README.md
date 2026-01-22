@@ -1,2 +1,2 @@
 # MasskaraWeb
-A comprehensive Masskara Festival portal and the Champion project of the Google DevFest 2023 Exhibit. Demonstrates advanced UI/UX design, interactive maps, and storytelling to depict the festival's heritage.
+This repository is archived as it was submitted during the Google DevFest 2023, where it won Champion. Please note that this project was built during our 2nd Year of college. As such, the file structure and code organization reflect our understanding of software architecture at that time. We have decided to keep it in its original state to serve as a history of our development journey.
